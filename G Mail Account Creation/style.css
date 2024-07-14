@@ -1,0 +1,72 @@
+<style>
+        body {
+            height: 100%;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .bg-img {
+            background-image: url(
+"https://img.freepik.com/free-vector/abstract-background_53876-43363.jpg?t=st=1720953103~exp=1720956703~hmac=e72d0a5defa7626a62f22111614dc5faccf162410a652183b61cf9c40b7b4b9a&w=1060");
+            min-height: 100vh;
+            background-size: cover;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+			
+        }
+
+        .container {
+            position: relative;
+            max-width: 300px;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+				
+
+        h1 {
+            text-align: center;
+            color: red;
+            -webkit-text-stroke: 1px black;
+            margin-bottom: 20px;
+        }
+
+        b {
+            color: Maroon;
+            font-size: 18px;
+            -webkit-text-stroke: 1px red;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+
+        .button {
+            background-color: white;
+            color:gray;
+            padding: 14px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color:darkred;
+        }
+		.button-container {
+			display: flex;
+		}
+		.input-name:focus {
+				box-shadow:0 0 0 10px red;
+				background-color:teal;
+				opacity: .5;
+		}
+    </style>
